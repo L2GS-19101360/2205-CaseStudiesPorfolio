@@ -16,7 +16,7 @@ class App extends Component{
 
   render(){
     return(
-      <div>
+      <div style={{backgroundColor: 'lightgray', padding: '3%'}}>
         Hello World!
       </div>
     );
