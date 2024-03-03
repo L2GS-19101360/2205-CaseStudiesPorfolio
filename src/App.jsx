@@ -17,7 +17,10 @@ class App extends Component{
   render(){
     return(
       <div>
-        Hello World!
+        <div style={{textAlign: 'center'}}>
+          <h1>SNAP InfoTechnovations, Incorporation</h1>
+          
+        </div>
       </div>
     );
   }
