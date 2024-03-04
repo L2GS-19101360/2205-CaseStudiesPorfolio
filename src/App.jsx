@@ -47,7 +47,7 @@ class App extends Component{
           <ul style={{listStyle: 'none', display: 'inline-flex', gap: '75px'}}>
             <li><img src={Lorenz} height={180} width={180} style={{border: '1px solid black'}} alt="" /><br/>Lorenz Gil Suico</li>
             <li><img src={Francis} height={180} width={180} style={{border: '1px solid black'}} alt="" /><br/>Francis Louis Aliser</li>
-            <li><img src={James} height={180} width={180} style={{border: '1px solid black'}} alt="" /><br/>Francis Louis Aliser</li>
+            <li><img src={James} height={180} width={180} style={{border: '1px solid black'}} alt="" /><br/>James Winston Ng</li>
             <li><img src={Nathan} height={180} width={180} style={{border: '1px solid black'}} alt="" /><br/>Nathan Eldridge Pernites</li>
           </ul><br/>
 
