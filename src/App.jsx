@@ -18,7 +18,7 @@ class App extends Component{
       isSustainableCitiesHovered: false,
     }
     this.toGoodHealthPage = this.toGoodHealthPage.bind(this);
-    // this.toSustainableCitiesPage = this.toSustainableCitiesPage.bind(this);
+    this.toSustainableCitiesPage = this.toSustainableCitiesPage.bind(this);
   }
 
   componentDidMount(){
@@ -31,9 +31,9 @@ class App extends Component{
   toGoodHealthPage(){
     this.props.history.push('GoodHealthPage');
   }
-  // toSustainableCitiesPage(){
-  //   this.props.history.push('SustainablePage');
-  // }
+  toSustainableCitiesPage(){
+    this.props.history.push('SustainablePage');
+  }
 
   render(){
     return(
