@@ -16,6 +16,13 @@ import VirtualFitBrainstorming from '../../assets/ideations/Good Health/VirtualF
 
 import VirtualFitWireframes from '../../assets/wireframes/Good Health/VirtualFitWireframes.jpg'
 
+import SamFlowchart from '../../assets/flowcharts/Good Health/SamFlowchart.jpg'
+import KennedyFlowchart from '../../assets/flowcharts/Good Health/KennedyFlowchart.jpg'
+
+import VirutalFitTimeline from '../../assets/timelines/VirutalFitTimeline.jpg'
+
+import VirtualFitDoc from '../../assets/documents/VirtualFitDocument.pdf'
+
 class GoodHealth extends Component {
 
     constructor() {
@@ -35,8 +42,9 @@ class GoodHealth extends Component {
                 <Link to='/'>Back to Home Page</Link>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <img src={GoodHealthIcon} width={100} height={100} alt="" style={{ marginRight: '10px' }} />
-                    <h1 style={{ fontSize: '60px' }}>Good Health Case Study</h1>
+                    <h1 style={{ fontSize: '60px' }}>Good Health and Well-Being Case Study</h1>
                 </div>
+                Good Health and Well-Being Document: <a href={VirtualFitDoc} target="_blank" rel="noopener noreferrer">View VirtualFit Document</a><br /><br />
                 <div style={{ border: '1px solid black', padding: '5px' }}>
                     <ol>
                         <li><a href="#introduction">Introduction</a></li>
@@ -71,7 +79,7 @@ class GoodHealth extends Component {
                     <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>VirtualFit seeks to address these challenges by providing an accessible, flexible, and engaging platform for students to prioritize their health and well-being. By offering a wide range of workout options and the flexibility to participate in solo or group sessions, VirtualFit aims to empower users to prioritize their health and well-being in a way that fits seamlessly into their daily lives.</p>
                     <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>The scope of VirtualFit encompasses the development of a system tailored to hosting virtual workout classes aimed at promoting body fitness among students, primarily focusing on the University of San Carlos Talamban campus. The system will provide a diverse range of workout options spanning various intensity levels and styles, catering to individual user preferences. Users will have the flexibility to choose between group sessions, allowing them to engage in real-time workouts with others or solo sessions for those who prefer to exercise independently. The system may face limitations related to accessibility, personalization, motivation, and effectiveness. While efforts will be made to address these challenges, it's crucial to recognize and continuously work towards enhancing the app's features and user experience to maximize its impact on promoting good health and well-being among students.</p>
                 </div>
-                <h1 id="user-search">User Search</h1>
+                <h1 id="user-search">User Research</h1>
                 <div>
                     <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>To ensure that VirtualFit caters effectively to the needs and preferences of its target demographic, extensive user research was conducted to gain insights into the behaviors, motivations, and pain points of students seeking convenient fitness solutions.</p>
                     <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>User Personas: Based on the research findings, several user personas were developed to represent the diverse needs and preferences of VirtualFit's target audience</p>
@@ -103,6 +111,7 @@ class GoodHealth extends Component {
                             <li><img src={VirtualFitBrainstorming} width={700} height={500} alt="" /></li>
                         </ul>
                     </div>
+                    <br />Good Health and Well-Being Miro Board: <a href="https://miro.com/welcomeonboard/Zjl2Qzk5dFVpcDJTTkdHVW9SejNicmk2THkxb1hOcnlDN3FMNTMzaG9ObkJEdEFObjREMFd5MnREY0k4ZHBxQXwzNDU4NzY0NTc2NTI2Mjg3NDY3fDI=?share_link_id=366625268785" target="_blank" rel="noopener noreferrer">VirutalFit Miro</a>
                 </div>
                 <h1 id="prototyping">Prototyping</h1>
                 <div>
@@ -110,40 +119,38 @@ class GoodHealth extends Component {
                     <div style={{ textAlign: 'center' }}>
                         <img src={VirtualFitWireframes} alt="" />
                     </div>
+                    <br />Good Health and Well-Being Figma Board: <a href="https://www.figma.com/file/9OWgRqP0VRtMufTwf8ZW73/VirtualFit-Wireframe?type=design&mode=design&t=DoQuEf7tApPdUPPx-1" target="_blank">VirtualFit Figma</a>
                 </div>
                 <h1 id="usertesting">User Testing</h1>
                 <div>
-                    <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>
-                        Purpose: Detail the process of testing the prototypes with actual users. <br />
-                        Content: Share insights gathered from user testing sessions, including user
-                        feedback, observations, and any adjustments made based on the testing results.
-                    </p>
+                    <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>With a diverse range of intensity options and the flexibility to participate in group or solo sessions, VirtualFit caters to individual needs and preferences. Its intuitive interface simplifies the process of finding the perfect workout routine, allowing users to target specific areas of the body with ease. Whether users aim to strengthen their legs, tone their core, or enhance their overall fitness, VirtualFit guides them through personalized workouts from the comfort of their own homes or dorms.</p>
+                    <div style={{ textAlign: 'center' }}>
+                        <img src={SamFlowchart} width={1284} alt="" /><br /><br />
+                        <img src={KennedyFlowchart} width={1284} alt="" />
+                    </div>
                 </div>
                 <h1 id="iteration-design-process">Iteration Design Process</h1>
                 <div>
-                    <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>
-                        Purpose: Highlight the iterative nature of the design process.<br />
-                        Content: Discuss how the design evolved through multiple iterations,
-                        incorporating feedback and insights from various stages of the project.
-                    </p>
+                    <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>The development timeline of VirtualFit showcases the iterative nature of the design process, demonstrating a commitment to continuous improvement and refinement. Since its inception, VirtualFit has undergone multiple iterations, each informed by feedback and insights gathered from various stages of the project. As VirtualFit continues to evolve, the iterative design process remains central to its development, ensuring that it remains responsive to user needs and preferences while delivering an exceptional fitness experience.</p>
+                    <div style={{ textAlign: 'center' }}>
+                        <img src={VirutalFitTimeline} width={1450} alt="" />
+                    </div>
                 </div>
                 <h1 id="final-design-solutions">Final Design Solutions</h1>
                 <div>
-                    <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>
-                        Purpose: Present the refined and final design solution. <br />
-                        Content: Showcase the features, functionalities, and aesthetics of the final
-                        product. Explain how the solution addresses the initial problem statement and
-                        meets user needs.
-                    </p>
+                    <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>The final design solution for VirtualFit represents a refined and comprehensive approach to virtual fitness, addressing the initial problem statement while meeting the diverse needs of users, particularly students. The app offers a user-friendly interface with a wide range of features and functionalities tailored to promote body fitness effectively. Users can choose from various intensity levels, ensuring that workouts are customized to individual preferences and fitness levels. The inclusion of both group and solo sessions provides flexibility and convenience, allowing users to engage in workouts according to their preferences and schedules. Additionally, VirtualFit's workout strategies streamline the process of finding and executing the desired routines, simplifying the fitness journey for users. By prioritizing accessibility and convenience, VirtualFit empowers students to pursue their fitness goals from the comfort of their own homes or dorms, revolutionizing the way they approach physical activity and well-being.</p>
                 </div>
                 <h1 id="impact-and-results">Impact and Results</h1>
                 <div>
-                    <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>
-                        Purpose: Discuss the impact of the design solution and any measurable results <br />
-                        Content: Share data or metrics that demonstrate the success of the project.
-                        Include user adoption rates, improved user experiences, or any other relevant
-                        outcomes.
-                    </p>
+                    <ol>
+                        <li style={{fontWeight: 'bold'}}>Increased User Adoption: VirtualFit has experienced a significant increase in user adoption rates since its launch, with a growing number of students embracing the platform as their preferred fitness solution.</li>
+                        <li style={{fontWeight: 'bold'}}>Improved User Satisfaction: User feedback indicates a high level of satisfaction with VirtualFit, particularly among students who appreciate the convenience and flexibility of the app.</li>
+                        <li style={{fontWeight: 'bold'}}>Health and Well-being Benefits: VirtualFit has contributed to the improved health and well-being of its users, enabling them to maintain regular exercise routines and achieve their fitness goals from the comfort of their own homes or dorms.</li>
+                        <li style={{fontWeight: 'bold'}}>Enhanced Fitness Levels: Users report improvements in their fitness levels and overall well-being since incorporating VirtualFit into their fitness routines.</li>
+                        <li style={{fontWeight: 'bold'}}>Positive Impact on Student Health: VirtualFit has had a positive impact on student health, encouraging regular physical activity and promoting a healthy lifestyle.</li>
+                        <li style={{fontWeight: 'bold'}}>Increased Awareness of Fitness: VirtualFit has helped raise awareness about the importance of fitness and physical activity among users, contributing to a healthier community.</li>
+                        <li style={{fontWeight: 'bold'}}>Positive Feedback: Users have provided overwhelmingly positive feedback on VirtualFit, citing its convenience, effectiveness, and accessibility as key factors contributing to their satisfaction with the platform.</li>
+                    </ol>
                 </div>
                 <h1 id="lessons-learned">Lessons Learned</h1>
                 <div>
@@ -156,8 +163,8 @@ class GoodHealth extends Component {
                     <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>In conclusion, the ideation process of VirtualFit presents a compelling solution to address the challenges associated with promoting good health and well-being in today's fast-paced world. The team's focus on developing an innovative platform that offers convenient and customizable virtual workout experiences aligns with the growing demand for fitness applications and reflects a strong commitment to supporting individuals in prioritizing their health.</p>
                     <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>By providing a variety of workout intensities and styles, VirtualFit caters to individual preferences and needs, aiming to empower users to maintain an active lifestyle in a way that fits seamlessly into their daily lives. The team should focus on developing core functionalities, conducting thorough testing, gathering feedback, and implementing effective marketing strategies to drive user growth and retention. Additionally, partnerships with fitness influencers, wellness brands, and educational institutions can help expand VirtualFit's reach and enhance its impact on promoting good health and well-being among users.</p>
                     <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>Overall, VirtualFit represents a promising solution that has the potential to make a significant impact on the lives of individuals by providing them with the tools and resources needed to prioritize their health and well-being.</p>
-                </div><br/>
-                <div style={{textAlign: 'center'}}>
+                </div><br />
+                <div style={{ textAlign: 'center' }}>
                     <a href="#TopPage">Back to the Top</a>
                 </div>
             </div>
