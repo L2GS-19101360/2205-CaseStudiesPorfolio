@@ -136,6 +136,7 @@ class SustainableCities extends Component {
                     <div style={{ textAlign: 'center' }}>
                         <img src={CommuteSmartTimeline} width={1450} alt="" />
                     </div>
+                    <br />Sustainable Communities and Cities Miro Board: <a href="https://miro.com/welcomeonboard/VjJ6bkhEalE5NUdraFFRYmx6SmNDcmNZdWROdnlINVE4emNTcEVHSnhkQXlUZ1IzMWFaSDVWbkRtc0UzVkpqYXwzNDU4NzY0NTc2NTI2Mjg3NDY3fDI=?share_link_id=918196913925" target="_blank" rel="noopener noreferrer">CommuteSmart Timeline</a>
                 </div>
                 <h1 id="final-design-solutions">Final Design Solutions</h1>
                 <div>

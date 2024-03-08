@@ -135,6 +135,7 @@ class GoodHealth extends Component {
                     <div style={{ textAlign: 'center' }}>
                         <img src={VirutalFitTimeline} width={1450} alt="" />
                     </div>
+                    <br />Good Health and Well-Being Miro Board: <a href="https://miro.com/welcomeonboard/Zjl2Qzk5dFVpcDJTTkdHVW9SejNicmk2THkxb1hOcnlDN3FMNTMzaG9ObkJEdEFObjREMFd5MnREY0k4ZHBxQXwzNDU4NzY0NTc2NTI2Mjg3NDY3fDI=?share_link_id=366625268785" target="_blank" rel="noopener noreferrer">VirutalFit Timeline</a>
                 </div>
                 <h1 id="final-design-solutions">Final Design Solutions</h1>
                 <div>
