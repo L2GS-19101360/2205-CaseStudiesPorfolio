@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
       <Route exact path='/' component={App} />
       <Route path='/GoodHealthPage' component={GoodHealthPage} />
-      <Route path='/SustainablePage' component={SustainableCitiesPage} />
+      <Route path='/SustainableCitiesPage' component={SustainableCitiesPage} />
     </Router>
   </div>
 )
