@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import GoodHealthIcon from '../../assets/SDG Images/GoodHealthIcon.png'
 import { Link } from 'react-router-dom'
 import { Accordion, Nav, Container, Navbar } from 'react-bootstrap';
+import GoodHealthPage from '../src/components/Good Health/GoodHealth.jsx'
+import SustainableCitiesPage from '../src/components/Sustainable Cities/SustainableCities.jsx'
 
 import SamPersona from '../../assets/ideal users/Good Health/Personas/SamPersona.jpg'
 import KennedyPersona from '../../assets/ideal users/Good Health/Personas/KennedyPersona.jpg'
@@ -47,7 +49,7 @@ class GoodHealth extends Component {
                         <Nav className="me-auto">
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="#">VirtualFit Case Study</Nav.Link>
-                            <Nav.Link href="/SustainableCitiesPage">CommuteSmart Case Study</Nav.Link>
+                            <Nav.Link href={SustainableCitiesPage}>CommuteSmart Case Study</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar>
