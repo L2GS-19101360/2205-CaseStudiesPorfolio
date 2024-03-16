@@ -1,5 +1,6 @@
 import './App.css'
 import React, { Component } from 'react'
+import { Button, Card } from 'react-bootstrap';
 import Lorenz from '../src/assets/developers/Lorenz.jpg';
 import Francis from '../src/assets/developers/Francis.jpg';
 import James from '../src/assets/developers/James.jpg';
@@ -8,6 +9,7 @@ import SustainableCitiesIcon from '../src/assets/SDG Images/SustainableCitiesIco
 import GoodHealthIcon from '../src/assets/SDG Images/GoodHealthIcon.png'
 import SustainableCitiesTab from '../src/assets/SDG Images/SustainableCitiesTab.png'
 import GoodHealthTab from '../src/assets/SDG Images/GoodHealthTab.png'
+import { Link } from 'react-router-dom'
 
 class App extends Component {
 
@@ -59,22 +61,31 @@ class App extends Component {
           </div>
           <br />
 
-          <ul style={{ listStyle: 'none', display: 'inline-flex', gap: '200px' }}>
-            <li
-              onClick={this.toGoodHealthPage}
-              onMouseEnter={() => this.setState({ isGoodHealthHovered: true })}
-              onMouseLeave={() => this.setState({ isGoodHealthHovered: false })}
-            ><img src={
-              this.state.isGoodHealthHovered ? GoodHealthTab : GoodHealthIcon
-            } height={180} width={180} style={{ border: '1px solid black', width: this.state.isGoodHealthHovered ? '327px' : '180px', cursor: 'pointer' }} alt="" /></li>
-            <li
-              onMouseEnter={() => this.setState({ isSustainableCitiesHovered: true })}
-              onMouseLeave={() => this.setState({ isSustainableCitiesHovered: false })}
-              onClick={this.toSustainableCitiesPage}
-            ><img src={
-              this.state.isSustainableCitiesHovered ? SustainableCitiesTab : SustainableCitiesIcon
-            } height={180} width={180} style={{ border: '1px solid black', width: this.state.isSustainableCitiesHovered ? '327px' : '180px', cursor: 'pointer' }} alt="" /></li>
-          </ul><br />
+          <div style={{ textAlign: "center", display: "inline-flex", gap: "75px" }}>
+            <Card style={{ width: '27rem' }}>
+              <Card.Img variant="top" src={GoodHealthTab} />
+              <Card.Body>
+                <Card.Title>VirtualFit Case Study</Card.Title>
+                <Card.Text>
+                  VirtualFit aims to revolutionize the way individuals engage with physical activity by providing a platform for virtual workout classes and fitness routines.
+                </Card.Text>
+                <Link to='/GoodHealthPage'><Button variant="success">Go to VirtualFit Case Study</Button></Link>
+              </Card.Body>
+            </Card>
+
+            <Card style={{ width: '27rem' }}>
+              <Card.Img variant="top" src={SustainableCitiesTab} />
+              <Card.Body>
+                <Card.Title>CommuteSmart Case Study</Card.Title>
+                <Card.Text>
+                  CommuteSmart aims to empower students to make informed choices that reduce their environmental footprint while optimizing their travel experience.
+                </Card.Text>
+                <Link to="/SustainableCitiesPage"><Button variant="warning">Go to CommuteSmart Case Study</Button></Link>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <br />
         </div>
       </div>
     );
