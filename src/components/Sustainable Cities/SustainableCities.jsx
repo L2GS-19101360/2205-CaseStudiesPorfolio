@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import SustainableCitiesIcon from '../../assets/SDG Images/SustainableCitiesIcon.png'
 import { Link, useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import { Accordion, Nav, Container, Navbar } from 'react-bootstrap';
-import GoodHealthPage from '../src/components/Good Health/GoodHealth.jsx'
-import SustainableCitiesPage from '../src/components/Sustainable Cities/SustainableCities.jsx'
 
 import LawrencePersona from '../../assets/ideal users/Sustainable Cities/Personas/LawrencePersona.jpg'
 import LorenzoPersona from '../../assets/ideal users/Sustainable Cities/Personas/LorenzoPersona.jpg'
@@ -48,7 +46,9 @@ class SustainableCities extends Component {
                         <Navbar.Brand>SNAP InfoTechnovations</Navbar.Brand>
                         <Nav className="me-auto">
                             <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href={GoodHealthPage}>VirtualFit Case Study</Nav.Link>
+                            <Nav.Link>
+                                <Link to="/GoodHealthPage">VirtualFit Case Study</Link>
+                            </Nav.Link>
                             <Nav.Link href="#">CommuteSmart Case Study</Nav.Link>
                         </Nav>
                     </Container>
