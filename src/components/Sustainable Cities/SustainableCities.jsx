@@ -16,6 +16,9 @@ import CommuteSmartSCAMPER from '../../assets/ideations/Sustainable Cities/Commu
 import CommuteSmartBrainStorming from '../../assets/ideations/Sustainable Cities/CommuteSmartBrainStorming.jpg'
 
 import CommuteSmartWireframe from '../../assets/wireframes/Sustainable Cities/CommuteSmartWireframe.jpg'
+import CommuteSmartGeneralSide from '../../assets/wireframes/Sustainable Cities/CommuteSmartGeneralSide.jpg'
+import CommuteSmartAdminSide from '../../assets/wireframes/Sustainable Cities/CommuteSmartAdminSide.jpg'
+import CommuteSmartUserSide from '../../assets/wireframes/Sustainable Cities/CommuteSmartUserSide.jpg'
 
 import LawrenceFlowchart from '../../assets/flowcharts/Sustainable Cities/LawrenceFlowchart.jpg'
 import LorenzoFlowchart from '../../assets/flowcharts/Sustainable Cities/LorenzoFlowchart.jpg'
@@ -103,11 +106,16 @@ class SustainableCities extends Component {
                             <Accordion.Body>
                                 <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>During the ideation phase for CommuteSmart, a collaborative approach was taken to generate a variety of potential solutions to address the commuting challenges faced by students and teachers at the university. Brainstorming sessions and workshops were conducted, involving stakeholders from different departments to gather diverse perspectives. Ideas were generated around enhancing the user experience, promoting sustainability, and leveraging technology to provide real-time information and guidance.</p>
                                 <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>These concepts were initially evaluated based on feasibility, impact on user experience, and alignment with the project's goals of efficiency and sustainability. The ideation phase fostered creativity and innovation, laying the groundwork for the development of a comprehensive solution in the form of the CommuteSmart React Website.</p>
-                                <img src={CommuteSmartInspirationBoard} width={700} height={500} alt="" />&nbsp;
+                                <img src={CommuteSmartInspirationBoard} width={700} height={500} alt="" />
+                                <p>Inspiration Board of CommuteSmart</p>&nbsp;
                                 <img src={CommuteSmartFishbone} width={700} height={500} alt="" />
-                                <img src={CommuteSmartMindMap} width={700} height={500} alt="" />&nbsp;
+                                <p>Fishbone Diagram of CommuteSmart</p>
+                                <img src={CommuteSmartMindMap} width={700} height={500} alt="" />
+                                <p>Mind Map of CommuteSmart</p>&nbsp;
                                 <img src={CommuteSmartSCAMPER} width={700} height={500} alt="" />
+                                <p>SCAMPER Diagram of CommuteSmart</p>
                                 <img src={CommuteSmartBrainStorming} width={700} height={500} alt="" />
+                                <p>Brain Storming Diagram of CommuteSmart</p>
                                 <br />Sustainable Communities and Cities Miro Board: <a href="https://miro.com/welcomeonboard/VjJ6bkhEalE5NUdraFFRYmx6SmNDcmNZdWROdnlINVE4emNTcEVHSnhkQXlUZ1IzMWFaSDVWbkRtc0UzVkpqYXwzNDU4NzY0NTc2NTI2Mjg3NDY3fDI=?share_link_id=918196913925" target="_blank" rel="noopener noreferrer">CommuteSmart Miro</a>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -116,7 +124,12 @@ class SustainableCities extends Component {
                             <Accordion.Body>
                                 <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>In the prototyping phase of CommuteSmart, design concepts were transformed into tangible prototypes through a series of iterations, progressing from low-fidelity to high-fidelity versions. Initially, wireframes and mockups were created to outline the basic layout and functionality of the website, focusing on key features such as real-time traffic information and alternative route suggestions. These low-fidelity prototypes allowed for rapid iteration and feedback gathering from stakeholders and potential users. </p>
                                 <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>Feedback from these sessions was carefully analyzed and incorporated into subsequent iterations, ensuring that the final prototype of the CommuteSmart React Website meets the needs and expectations of its users while fulfilling its goal of assisting students and teachers in their daily commute efficiently and sustainably.</p>
-                                <img src={CommuteSmartWireframe} alt="" />
+                                <h3>General Side of CommuteSmart</h3>
+                                <img src={CommuteSmartGeneralSide} alt="" height={500} />
+                                <h3>Admin Side of CommuteSmart</h3>
+                                <img src={CommuteSmartAdminSide} alt="" height={500} />
+                                <h3>User Side of CommuteSmart</h3>
+                                <img src={CommuteSmartUserSide} alt="" height={500} />
                                 <br />Sustainable Communities and Cities Figma Board: <a href="https://www.figma.com/file/crhFKUNdQxrJoRZbhwspQY/CommuteSmart-Wireframe?type=design&node-id=0%3A1&mode=design&t=YHRyFB23bnCZ4WtP-1" target="_blank">CommuteSmart Figma</a>
                             </Accordion.Body>
                         </Accordion.Item>
