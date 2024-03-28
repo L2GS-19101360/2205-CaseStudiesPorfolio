@@ -16,6 +16,10 @@ import VirtualFitSCAMPER from '../../assets/ideations/Good Health/VirtualFitSCAM
 import VirtualFitBrainstorming from '../../assets/ideations/Good Health/VirtualFitBrainstorming.jpg'
 
 import VirtualFitWireframes from '../../assets/wireframes/Good Health/VirtualFitWireframes.jpg'
+import VirtualFitGeneralSide from '../../assets/wireframes/Good Health/VirtualFitGeneralSide.jpg'
+import VirtualFitAdminSide from '../../assets/wireframes/Good Health/VirtualFitAdminSide.jpg'
+import VirtualFitTraineeSide from '../../assets/wireframes/Good Health/VirtualFitTraineeSide.jpg'
+import VirtualFitTrainerSide from '../../assets/wireframes/Good Health/VirtualFitTrainerSide.jpg'
 
 import SamFlowchart from '../../assets/flowcharts/Good Health/SamFlowchart.jpg'
 import KennedyFlowchart from '../../assets/flowcharts/Good Health/KennedyFlowchart.jpg'
@@ -105,11 +109,16 @@ class GoodHealth extends Component {
                             <Accordion.Body>
                                 <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>During the ideation phase for VirtualFit, the team engaged in a collaborative process aimed at generating innovative solutions to address the unique fitness needs of students. Brainstorming sessions and workshops were conducted involving cross-functional teams, including designers, developers, fitness experts, and potential end-users. Through these collaborative activities, a variety of ideas were generated to enhance the accessibility, personalization, and engagement of the virtual fitness platform.</p>
                                 <p style={{ textAlign: 'justify', fontWeight: 'bold' }}> Each idea was evaluated based on criteria such as feasibility, scalability, and alignment with user needs, leading to the selection of features and functionalities that formed the foundation of the VirtualFit app.</p>
-                                <img src={VirtualFitInspirationBoard} width={700} height={500} alt="" />&nbsp;
+                                <img src={VirtualFitInspirationBoard} width={700} height={500} alt="" />
+                                <p>Inspiration Board of VirtualFit</p>&nbsp;
                                 <img src={VirtualFitFishbone} width={700} height={500} alt="" />
-                                <img src={VirtualFitMindMap} width={700} height={500} alt="" />&nbsp;
+                                <p>Fishbone Diagram of VirtualFit</p>
+                                <img src={VirtualFitMindMap} width={700} height={500} alt="" />
+                                <p>Mind Map of VirtualFit</p>&nbsp;
                                 <img src={VirtualFitSCAMPER} width={700} height={500} alt="" />
+                                <p>SCAMPER Diagram of VirutalFit</p>
                                 <img src={VirtualFitBrainstorming} width={700} height={500} alt="" />
+                                <p>Brainstorming of VirtualFit</p>
                                 <br />Good Health and Well-Being Miro Board: <a href="https://miro.com/welcomeonboard/Zjl2Qzk5dFVpcDJTTkdHVW9SejNicmk2THkxb1hOcnlDN3FMNTMzaG9ObkJEdEFObjREMFd5MnREY0k4ZHBxQXwzNDU4NzY0NTc2NTI2Mjg3NDY3fDI=?share_link_id=366625268785" target="_blank" rel="noopener noreferrer">VirutalFit Miro</a>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -117,7 +126,14 @@ class GoodHealth extends Component {
                             <Accordion.Header>Prototyping</Accordion.Header>
                             <Accordion.Body>
                                 <p style={{ textAlign: 'justify', fontWeight: 'bold' }}>During the prototyping phase for VirtualFit, our team translated design concepts into tangible prototypes through a series of iterative development cycles. We began with low-fidelity prototypes, which focused on basic functionality and user flow, allowing us to quickly test and iterate on key features. These initial prototypes were shared with a select group of beta testers, primarily students, who provided valuable feedback on usability, navigation, and feature preferences.</p>
-                                <img src={VirtualFitWireframes} alt="" />
+                                <h3>General Side of VirtualFit</h3>
+                                <img src={VirtualFitGeneralSide} alt="" height={500}/>
+                                <h3>Admin Side of VirtualFit</h3>
+                                <img src={VirtualFitAdminSide} alt="" height={500}/>
+                                <h3>Trainer Side of VirtualFit</h3>
+                                <img src={VirtualFitTrainerSide} alt="" height={500}/>
+                                <h3>Trainee Side of VirtualFit</h3>
+                                <img src={VirtualFitTraineeSide} alt="" height={500}/>
                                 <br />Good Health and Well-Being Figma Board: <a href="https://www.figma.com/file/9OWgRqP0VRtMufTwf8ZW73/VirtualFit-Wireframe?type=design&mode=design&t=DoQuEf7tApPdUPPx-1" target="_blank">VirtualFit Figma</a>
                             </Accordion.Body>
                         </Accordion.Item>
